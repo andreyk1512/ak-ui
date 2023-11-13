@@ -12,6 +12,7 @@ const colorsMap: Record<TagProps['color'], SerializedStyles> = {
 
 export const Tag = ({ children, color }: TagProps) => {
   const tagStyle = css`
+    display: inline-flex;
     padding: 7px 10px;
     border-radius: 3px;
     letter-spacing: 0.36px;
