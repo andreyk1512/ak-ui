@@ -21,8 +21,17 @@
   ],
   "author": "Andrii Krupa",
   "license": "MIT",
+  "homepage": "https://github.com/andreyk1512/react-image-size#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andreyk1512/react-image-size.git"
+  },
+  "bugs": {
+    "url": "https://github.com/andreyk1512/react-image-size/issues"
+  },
   "scripts": {
-    "build": "tsc && vite build"
+    "build": "tsc && vite build",
+    "test": "exit 0"
   },
   "devDependencies": {
     "@types/react": "^18.2.23",
