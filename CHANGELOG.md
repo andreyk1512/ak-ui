@@ -11,3 +11,5 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Add GitHub release workflow
 - Add [CHANGELOG.md](CHANGELOG.md) file
 - Add [README.md](README.md) file
+- Setup tslint
+- Setup prettier
