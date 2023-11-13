@@ -13,3 +13,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Add [README.md](README.md) file
 - Setup tslint
 - Setup prettier
+- Setup husky git hooks

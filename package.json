@@ -34,10 +34,14 @@
     "format": "prettier --write \"src/**/*.{ts,tsx}\"",
     "lint": "tslint -p tsconfig.json",
     "test": "exit 0",
-    "prepare": "pnpm build"
+    "prepare": "pnpm build && (is-ci || husky install)",
+    "pre-commit": "pnpm run lint",
+    "pre-push": "pnpm run build && pnpm run test"
   },
   "devDependencies": {
     "@types/react": "^18.2.23",
+    "husky": "^8.0.0",
+    "is-ci": "^3.0.1",
     "prettier": "^3.1.0",
     "tslint": "^6.1.3",
     "tslint-config-prettier": "^1.18.0",
