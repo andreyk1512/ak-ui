@@ -1,0 +1,36 @@
+{
+  "name": "ak-ui",
+  "version": "0.0.1",
+  "type": "module",
+  "description": "React UI kit library",
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.es.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "/dist"
+  ],
+  "keywords": [
+    "ui-kit",
+    "component",
+    "components",
+    "design",
+    "frontend",
+    "react",
+    "ui",
+    "react-component"
+  ],
+  "author": "Andrii Krupa",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc && vite build"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.23",
+    "typescript": "^5.0.2",
+    "vite": "^4.4.5",
+    "vite-plugin-dts": "^3.6.3"
+  },
+  "peerDependencies": {
+    "react": "^18.2.0"
+  }
+}
