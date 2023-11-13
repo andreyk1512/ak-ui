@@ -1,0 +1,35 @@
+@import "vars";
+
+.tag {
+  padding: 7px 10px;
+  border-radius: 3px;
+  letter-spacing: 0.36px;
+  line-height: 100%;
+  font-weight: $font-weight-medium;
+  font-size: $font-size-micro;
+
+  .blue {
+    color: $carolina-blue;
+    background-color: $light-sky-blue-40;
+  }
+
+  .green {
+    color: $light-sea-green;
+    background-color: $light-sea-green-20;
+  }
+
+  .orange {
+    color: $tigers-eye;
+    background-color: $tigers-eye-20;
+  }
+
+  .purple {
+    color: $amethyst;
+    background-color: $amethyst-20;
+  }
+
+  .pink {
+    color: $telemagenta;
+    background-color: $telemagenta-20;
+  }
+}
