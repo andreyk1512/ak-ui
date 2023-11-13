@@ -21,5 +21,8 @@
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true
   },
-  "include": ["src"]
+  "include": ["src"],
+  "exclude": [
+    "src/**/__docs__","src/**/__test__"
+  ]
 }
