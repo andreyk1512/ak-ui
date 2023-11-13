@@ -21,13 +21,13 @@
   ],
   "author": "Andrii Krupa",
   "license": "MIT",
-  "homepage": "https://github.com/andreyk1512/react-image-size#readme",
+  "homepage": "https://github.com/andreyk1512/ak-ui#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/andreyk1512/react-image-size.git"
+    "url": "git+https://github.com/andreyk1512/ak-ui.git"
   },
   "bugs": {
-    "url": "https://github.com/andreyk1512/react-image-size/issues"
+    "url": "https://github.com/andreyk1512/ak-ui/issues"
   },
   "scripts": {
     "build": "tsc && vite build",
