@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should correctly render Tag item 1`] = `
+<span
+  className="css-n4u7t6-Tag"
+>
+  ONLINE
+</span>
+`;
