@@ -8,27 +8,27 @@
   font-weight: $font-weight-medium;
   font-size: $font-size-micro;
 
-  .blue {
+  &.blue {
     color: $carolina-blue;
     background-color: $light-sky-blue-40;
   }
 
-  .green {
+  &.green {
     color: $light-sea-green;
     background-color: $light-sea-green-20;
   }
 
-  .orange {
+  &.orange {
     color: $tigers-eye;
     background-color: $tigers-eye-20;
   }
 
-  .purple {
+  &.purple {
     color: $amethyst;
     background-color: $amethyst-20;
   }
 
-  .pink {
+  &.pink {
     color: $telemagenta;
     background-color: $telemagenta-20;
   }
