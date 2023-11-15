@@ -12,9 +12,14 @@ export default defineConfig({
     },
     rollupOptions: {
       external: ['react'],
+      output: {
+        globals: {
+          react: 'React',
+        },
+      },
     },
     sourcemap: true,
     emptyOutDir: true,
   },
-  plugins: [dts()],
+  plugins: [dts({ tsconfigPath: 'tsconfig.build.json' })],
 });

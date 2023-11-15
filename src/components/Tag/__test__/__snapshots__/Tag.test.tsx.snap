@@ -1,8 +1,8 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`should correctly render Tag item 1`] = `
+exports[`Tag should correctly render span element with content 1`] = `
 <span
-  className="css-n4u7t6-Tag"
+  class="css-wwpjiu-Tag"
 >
   ONLINE
 </span>

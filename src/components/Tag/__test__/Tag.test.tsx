@@ -1,12 +1,12 @@
-import renderer from 'react-test-renderer';
+import { render } from '@testing-library/react';
 import { Tag } from '../Tag';
 
-it('should correctly render Tag item', () => {
-  const component = renderer.create(
-    <Tag color="green">ONLINE</Tag>,
-  );
+describe('Tag', () => {
+  it('should correctly render span element with content', () => {
+    const children = 'ONLINE';
+    const { container } = render(<Tag color="green">{children}</Tag>);
 
-  const tree = component.toJSON();
-
-  expect(tree).toMatchSnapshot();
+    expect(container.querySelector('span')?.textContent).toBe(children);
+    expect(container.firstChild).toMatchSnapshot();
+  });
 });
