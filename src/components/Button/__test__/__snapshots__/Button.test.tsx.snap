@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button should be able to set a button loading 1`] = `
+<button
+  class="css-4cc993-Button"
+  type="button"
+>
+  <span
+    class="css-vqm885-Button"
+  />
+  CLICK
+</button>
+`;
+
+exports[`Button should correctly render button element with content 1`] = `
+<button
+  class="css-4cc993-Button"
+  type="button"
+>
+  CLICK
+</button>
+`;
