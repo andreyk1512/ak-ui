@@ -40,15 +40,15 @@ devDependencies:
   '@storybook/testing-library':
     specifier: ^0.2.2
     version: 0.2.2
+  '@testing-library/react':
+    specifier: ^14.1.0
+    version: 14.1.0(react-dom@18.2.0)(react@18.2.0)
   '@types/jest':
     specifier: ^29.5.8
     version: 29.5.8
   '@types/react':
     specifier: ^18.2.23
     version: 18.2.37
-  '@types/react-test-renderer':
-    specifier: ^18.0.6
-    version: 18.0.6
   css-loader:
     specifier: ^6.8.1
     version: 6.8.1(webpack@5.89.0)
@@ -71,9 +71,6 @@ devDependencies:
     specifier: ^18.2.0
     version: 18.2.0
   react-dom:
-    specifier: ^18.2.0
-    version: 18.2.0(react@18.2.0)
-  react-test-renderer:
     specifier: ^18.2.0
     version: 18.2.0(react@18.2.0)
   sass-loader:
@@ -3727,6 +3724,20 @@ packages:
       pretty-format: 27.5.1
     dev: true
 
+  /@testing-library/react@14.1.0(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-hcvfZEEyO0xQoZeHmUbuMs7APJCGELpilL7bY+BaJaMP57aWc6q1etFwScnoZDheYjk4ESdlzPdQ33IbsKAK/A==}
+    engines: {node: '>=14'}
+    peerDependencies:
+      react: ^18.0.0
+      react-dom: ^18.0.0
+    dependencies:
+      '@babel/runtime': 7.23.2
+      '@testing-library/dom': 9.3.3
+      '@types/react-dom': 18.2.15
+      react: 18.2.0
+      react-dom: 18.2.0(react@18.2.0)
+    dev: true
+
   /@testing-library/user-event@14.5.1(@testing-library/dom@9.3.3):
     resolution: {integrity: sha512-UCcUKrUYGj7ClomOo2SpNVvx4/fkd/2BbIHDCle8A0ax+P3bU7yJwDBDrS6ZwdTMARWTGODX1hEsCcO+7beJjg==}
     engines: {node: '>=12', npm: '>=6'}
@@ -3983,8 +3994,8 @@ packages:
     resolution: {integrity: sha512-hKormJbkJqzQGhziax5PItDUTMAM9uE2XXQmM37dyd4hVM+5aVl7oVxMVUiVQn2oCQFN/LKCZdvSM0pFRqbSmQ==}
     dev: true
 
-  /@types/react-test-renderer@18.0.6:
-    resolution: {integrity: sha512-O2JT1J3/v/NaYHYmPf2DXBSqUGmp6iwhFPicES6Pc1Y90B9Qgu99mmaBGqfZFpVuXLzF/pNJB4K9ySL3iqFeXA==}
+  /@types/react-dom@18.2.15:
+    resolution: {integrity: sha512-HWMdW+7r7MR5+PZqJF6YFNSCtjz1T0dsvo/f1BV6HkV+6erD/nA7wd9NM00KVG83zf2nJ7uATPO9ttdIPvi3gg==}
     dependencies:
       '@types/react': 18.2.37
     dev: true
@@ -8240,16 +8251,6 @@ packages:
       use-sidecar: 1.1.2(@types/react@18.2.37)(react@18.2.0)
     dev: true
 
-  /react-shallow-renderer@16.15.0(react@18.2.0):
-    resolution: {integrity: sha512-oScf2FqQ9LFVQgA73vr86xl2NaOIX73rh+YFqcOp68CWj56tSfgtGKrEbyhCj0rSijyG9M1CYprTh39fBi5hzA==}
-    peerDependencies:
-      react: ^16.0.0 || ^17.0.0 || ^18.0.0
-    dependencies:
-      object-assign: 4.1.1
-      react: 18.2.0
-      react-is: 18.2.0
-    dev: true
-
   /react-style-singleton@2.2.1(@types/react@18.2.37)(react@18.2.0):
     resolution: {integrity: sha512-ZWj0fHEMyWkHzKYUr2Bs/4zU6XLmq9HsgBURm7g5pAVfyn49DgUiNgY2d4lXRlYSiCif9YBGpQleewkcqddc7g==}
     engines: {node: '>=10'}
@@ -8265,17 +8266,6 @@ packages:
       invariant: 2.2.4
       react: 18.2.0
       tslib: 2.6.2
-    dev: true
-
-  /react-test-renderer@18.2.0(react@18.2.0):
-    resolution: {integrity: sha512-JWD+aQ0lh2gvh4NM3bBM42Kx+XybOxCpgYK7F8ugAlpaTSnWsX+39Z4XkOykGZAHrjwwTZT3x3KxswVWxHPUqA==}
-    peerDependencies:
-      react: ^18.2.0
-    dependencies:
-      react: 18.2.0
-      react-is: 18.2.0
-      react-shallow-renderer: 16.15.0(react@18.2.0)
-      scheduler: 0.23.0
     dev: true
 
   /react@18.2.0:
