@@ -31,7 +31,7 @@ export const tagStyles = (color: TagColor) => css`
   border-radius: 3px;
   letter-spacing: 0.36px;
   line-height: 100%;
-  font-size: ${styles.fontSize.micro};
+  font-size: ${styles.fontSize.tiny};
   font-weight: ${styles.fontWeight.medium};
   ${colorsMap[color]}
 `;

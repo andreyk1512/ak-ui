@@ -11,7 +11,8 @@ export const labelStyles = ({ disabled }: Pick<CheckboxProps, 'disabled'>) => cs
   color: ${styles.color.slateGray};
   cursor: pointer;
 
-  ${disabled && css`
+  ${disabled &&
+  css`
     opacity: 0.65;
     cursor: not-allowed;
   `}
