@@ -26,11 +26,11 @@ export const color = {
 };
 
 export const fontSize = {
-  micro: '12px',
-  small: '15px',
-  default: '17px',
+  tiny: '12px',
+  regular: '15px',
+  medium: '17px',
   large: '20px',
-  extraLarge: '26px',
+  veryLarge: '26px',
 };
 
 export const fontWeight = {

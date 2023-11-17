@@ -37,7 +37,7 @@ export const buttonStyles = ({ size, type, ghost }: Pick<ButtonProps, 'size' | '
   padding: 15px;
   border-radius: 5px;
   font-style: normal;
-  font-size: ${styles.fontSize.small};
+  font-size: ${styles.fontSize.regular};
   background-color: transparent;
   box-shadow: none;
   border: 1px solid ${styles.color.lightSeaGreen};
