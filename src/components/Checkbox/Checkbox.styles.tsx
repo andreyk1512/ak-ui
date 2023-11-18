@@ -1,7 +1,7 @@
 import { css } from '@emotion/react';
 import CheckedSVG from '../../assets/icons/checked.svg';
 import * as styles from '../../styles';
-import { CheckboxProps } from './Checkbox.types.ts';
+import { CheckboxProps } from './Checkbox.types';
 
 export const labelStyles = ({ disabled }: Pick<CheckboxProps, 'disabled'>) => css`
   font: inherit;

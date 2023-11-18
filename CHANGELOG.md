@@ -20,3 +20,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Add Button component
 - Add Checkbox component
 - Add Typography components: Title, Paragraph, Text
+- Add Accordion component

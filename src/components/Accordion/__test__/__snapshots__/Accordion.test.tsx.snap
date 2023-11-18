@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Accordion should render the correct snapshot of the collapsed state 1`] = `
+<div
+  class="css-1seyxos-Accordion"
+>
+  <div
+    class="css-1gv14s8-Accordion"
+  >
+    <h3
+      class="css-1ur2pi3-Title"
+    >
+      My Accordion
+    </h3>
+    <div
+      class="css-sjuro9-Accordion"
+      title="expand"
+    />
+  </div>
+  <div
+    class="css-9o9fup-Accordion"
+    style="max-height: 0;"
+  >
+    <div
+      class="css-1renszx-Accordion"
+    >
+      Children
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Accordion should render the correct snapshot of the expanded state 1`] = `
+<div
+  class="css-1seyxos-Accordion"
+>
+  <div
+    class="css-1gv14s8-Accordion"
+  >
+    <h3
+      class="css-1ur2pi3-Title"
+    >
+      My Accordion
+    </h3>
+    <div
+      class="css-ccb19j-Accordion"
+      title="expand"
+    />
+  </div>
+  <div
+    class="css-k8mpdl-Accordion"
+    style="max-height: 0px;"
+  >
+    <div
+      class="css-1renszx-Accordion"
+    >
+      Children
+    </div>
+  </div>
+</div>
+`;
