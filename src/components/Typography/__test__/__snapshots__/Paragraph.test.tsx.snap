@@ -1,9 +1,9 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Typography.Paragraph should correctly render p element with content 1`] = `
+exports[`Typography.Paragraph should render the paragraph text 1`] = `
 <p
   class="css-459kog-Paragraph"
 >
-  Lorem ipsum dolor sit amet...
+  This is a paragraph
 </p>
 `;

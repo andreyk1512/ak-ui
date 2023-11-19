@@ -1,9 +1,9 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Typography.Text should correctly render span element with content 1`] = `
+exports[`Typography.Text should render the text content 1`] = `
 <span
   class="css-11j3j5i-Text"
 >
-  Lorem ipsum dolor sit amet...
+  This is a text component
 </span>
 `;

@@ -1,41 +1,41 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Typography.Title should correctly render h1 element by default with content 1`] = `
+exports[`Typography.Title should render the title content as h1 for type 1 by default 1`] = `
 <h1
   class="css-1ur2pi3-Title"
 >
-  Lorem ipsum dolor sit amet...
+  This is a title
 </h1>
 `;
 
-exports[`Typography.Title should correctly render h2 element by default with content 1`] = `
+exports[`Typography.Title should render the title content as h2 for type 2 1`] = `
 <h2
   class="css-1ur2pi3-Title"
 >
-  Lorem ipsum dolor sit amet...
+  This is a title
 </h2>
 `;
 
-exports[`Typography.Title should correctly render h3 element by default with content 1`] = `
+exports[`Typography.Title should render the title content as h3 for type 3 1`] = `
 <h3
   class="css-1ur2pi3-Title"
 >
-  Lorem ipsum dolor sit amet...
+  This is a title
 </h3>
 `;
 
-exports[`Typography.Title should correctly render h4 element by default with content 1`] = `
+exports[`Typography.Title should render the title content as h4 for type 4 1`] = `
 <h4
   class="css-1ur2pi3-Title"
 >
-  Lorem ipsum dolor sit amet...
+  This is a title
 </h4>
 `;
 
-exports[`Typography.Title should correctly render h5 element by default with content 1`] = `
+exports[`Typography.Title should render the title content as h5 for type 5 1`] = `
 <h5
   class="css-1ur2pi3-Title"
 >
-  Lorem ipsum dolor sit amet...
+  This is a title
 </h5>
 `;

@@ -1,6 +1,40 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Checkbox should correctly render checkbox element with content 1`] = `
+exports[`Checkbox should render the correct snapshot of the checked state 1`] = `
+<label
+  class="css-1iewpye-Checkbox"
+  for=":r1:"
+>
+  <input
+    checked=""
+    class="css-7y0m47-Checkbox"
+    id=":r1:"
+    type="checkbox"
+  />
+  <span>
+    My Checkbox
+  </span>
+</label>
+`;
+
+exports[`Checkbox should render the correct snapshot of the disabled state 1`] = `
+<label
+  class="css-1hh91d2-Checkbox"
+  for=":r2:"
+>
+  <input
+    class="css-7y0m47-Checkbox"
+    disabled=""
+    id=":r2:"
+    type="checkbox"
+  />
+  <span>
+    My Checkbox
+  </span>
+</label>
+`;
+
+exports[`Checkbox should render the correct snapshot of the unchecked state 1`] = `
 <label
   class="css-1iewpye-Checkbox"
   for=":r0:"
@@ -11,7 +45,7 @@ exports[`Checkbox should correctly render checkbox element with content 1`] = `
     type="checkbox"
   />
   <span>
-    CheckBox
+    My Checkbox
   </span>
 </label>
 `;

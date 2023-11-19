@@ -1,12 +1,13 @@
-import { render } from '@testing-library/react';
+import '@testing-library/jest-dom';
+import { render, screen } from '@testing-library/react';
 import { Typography } from '../Typography';
 
 describe('Typography.Paragraph', () => {
-  it('should correctly render p element with content', () => {
-    const children = 'Lorem ipsum dolor sit amet...';
-    const { container } = render(<Typography.Paragraph>{children}</Typography.Paragraph>);
+  it('should render the paragraph text', () => {
+    const { container } = render(<Typography.Paragraph>This is a paragraph</Typography.Paragraph>);
+    const paragraph = screen.getByText('This is a paragraph');
 
-    expect(container.querySelector('p')?.textContent).toBe(children);
+    expect(paragraph).toBeInTheDocument();
     expect(container.firstChild).toMatchSnapshot();
   });
 });

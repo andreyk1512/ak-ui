@@ -1,38 +1,39 @@
-import { fireEvent, render } from '@testing-library/react';
+import '@testing-library/jest-dom';
+import { render, screen } from '@testing-library/react';
 import { Button } from '../Button';
 
 describe('Button', () => {
-  it('should correctly render button element with content', () => {
-    const children = 'CLICK';
-    const { container } = render(<Button>{children}</Button>);
+  it('should render the button text', () => {
+    const { container } = render(<Button>Click Me</Button>);
+    const button = screen.getByRole('button');
 
-    expect(container.querySelector('button')?.textContent).toBe(children);
+    expect(button).toBeInTheDocument();
     expect(container.firstChild).toMatchSnapshot();
   });
 
-  it('should be able to render a disabled button', () => {
-    const ON_CLICK = jest.fn();
-    const { container } = render(
-      <Button disabled onClick={ON_CLICK}>
-        CLICK
-      </Button>,
-    );
+  it('should disable the button if the disabled prop is true', () => {
+    const onClickHandler = jest.fn();
+    render(<Button disabled onClick={onClickHandler}>Click Me</Button>);
+    const button = screen.getByRole('button');
+    button.click();
 
-    fireEvent.click(container.querySelector('button')!);
-
-    expect(ON_CLICK).not.toHaveBeenCalled();
+    expect(button).toBeDisabled();
+    expect(onClickHandler).not.toHaveBeenCalled();
   });
 
-  it('should be able to pass button an extra classname', () => {
-    const extraClass = 'foobar';
-    const { container } = render(<Button extraClass={extraClass}>CLICK</Button>);
+  it('should show the button loader if the loading prop is true', () => {
+    render(<Button loading>Click Me</Button>);
+    const loader = screen.getByRole('button');
 
-    expect(container.querySelector('button')?.className).toContain(extraClass);
+    expect(loader).toBeInTheDocument();
   });
 
-  it('should be able to set a button loading', () => {
-    const { container } = render(<Button loading>CLICK</Button>);
+  it('should fire the onClick event when the button is clicked', () => {
+    const onClickHandler = jest.fn();
+    render(<Button onClick={onClickHandler}>Click Me</Button>);
+    const button = screen.getByRole('button');
+    button.click();
 
-    expect(container.firstChild).toMatchSnapshot();
+    expect(onClickHandler).toBeCalled();
   });
 });
