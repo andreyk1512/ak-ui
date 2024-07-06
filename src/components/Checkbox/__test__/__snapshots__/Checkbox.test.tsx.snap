@@ -17,6 +17,23 @@ exports[`Checkbox should render the correct snapshot of the checked state 1`] = 
 </label>
 `;
 
+exports[`Checkbox should render the correct snapshot of the checked state: checked 1`] = `
+<label
+  class="css-1vof294-Checkbox"
+  for=":r1:"
+>
+  <input
+    checked=""
+    class="css-l7v0wq-Checkbox"
+    id=":r1:"
+    type="checkbox"
+  />
+  <span>
+    My Checkbox
+  </span>
+</label>
+`;
+
 exports[`Checkbox should render the correct snapshot of the disabled state 1`] = `
 <label
   class="css-1okvwha-Checkbox"
@@ -34,7 +51,40 @@ exports[`Checkbox should render the correct snapshot of the disabled state 1`] =
 </label>
 `;
 
+exports[`Checkbox should render the correct snapshot of the disabled state: disabled 1`] = `
+<label
+  class="css-1okvwha-Checkbox"
+  for=":r2:"
+>
+  <input
+    class="css-l7v0wq-Checkbox"
+    disabled=""
+    id=":r2:"
+    type="checkbox"
+  />
+  <span>
+    My Checkbox
+  </span>
+</label>
+`;
+
 exports[`Checkbox should render the correct snapshot of the unchecked state 1`] = `
+<label
+  class="css-1vof294-Checkbox"
+  for=":r0:"
+>
+  <input
+    class="css-l7v0wq-Checkbox"
+    id=":r0:"
+    type="checkbox"
+  />
+  <span>
+    My Checkbox
+  </span>
+</label>
+`;
+
+exports[`Checkbox should render the correct snapshot of the unchecked state: unchecked 1`] = `
 <label
   class="css-1vof294-Checkbox"
   for=":r0:"

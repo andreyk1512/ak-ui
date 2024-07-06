@@ -8,19 +8,19 @@ describe('Checkbox', () => {
   it('should render the correct snapshot of the unchecked state', () => {
     const { container } = render(<Checkbox label="My Checkbox" onChange={onChange} />);
 
-    expect(container.firstChild).toMatchSnapshot();
+    expect(container.firstChild).toMatchSnapshot('unchecked');
   });
 
   it('should render the correct snapshot of the checked state', () => {
     const { container } = render(<Checkbox label="My Checkbox" onChange={onChange} value={true} />);
 
-    expect(container.firstChild).toMatchSnapshot();
+    expect(container.firstChild).toMatchSnapshot('checked');
   });
 
   it('should render the correct snapshot of the disabled state', () => {
     const { container } = render(<Checkbox label="My Checkbox" onChange={onChange} disabled />);
 
-    expect(container.firstChild).toMatchSnapshot();
+    expect(container.firstChild).toMatchSnapshot('disabled');
   });
 
   it('should render the checkbox label', () => {
