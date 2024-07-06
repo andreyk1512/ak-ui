@@ -2,7 +2,7 @@ import { css } from '@emotion/react';
 import * as styles from '../../styles';
 import { ButtonProps } from './Button.types';
 
-export const loaderStyles = css`
+export const loaderStyles = ({ hidden }: { hidden: boolean }) => css`
   height: 12px;
   width: 12px;
   color: currentColor;
@@ -12,6 +12,14 @@ export const loaderStyles = css`
   margin-inline-end: 8px;
   border-top-color: transparent;
   animation: rotate 1s linear infinite;
+  transition: all 0.2s;
+
+  ${hidden &&
+    css`
+    scale: 0;
+    width: 0;
+    margin-inline-end: 0;
+  `};
 
   @keyframes rotate {
     0% {
@@ -42,6 +50,7 @@ export const buttonStyles = ({ size, type, ghost }: Pick<ButtonProps, 'size' | '
   box-shadow: none;
   border: 1px solid ${styles.color.lightSeaGreen};
   color: ${styles.color.yankeesBlue};
+  transition: all 0.2s;
 
   &:hover {
     background-color: ${styles.color.lightSeaGreen};
