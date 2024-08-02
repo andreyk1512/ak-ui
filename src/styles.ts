@@ -16,6 +16,7 @@ export const color = {
   tigersEye: '#ED8A41',
   amethyst: '#905BD4',
   telemagenta: '#D63D74',
+  cadetBlue: '#A6BCCB',
   amethyst_20: 'rgba(144, 91, 212, 0.20)',
   tigersEye_20: 'rgba(237, 138, 65, 0.20)',
   telemagenta_20: 'rgba(214, 61, 116, 0.20)',
@@ -23,7 +24,7 @@ export const color = {
   lightSkyBlue_40: 'rgba(144, 206, 247, 0.40)',
   brightGray_70: 'rgba(228, 233, 242, 0.70)',
   brightGray_85: 'rgba(228, 233, 242, 0.85)',
-};
+} as const;
 
 export const fontSize = {
   tiny: '12px',
@@ -31,11 +32,11 @@ export const fontSize = {
   medium: '17px',
   large: '20px',
   veryLarge: '26px',
-};
+} as const;
 
 export const fontWeight = {
   regular: 400,
   medium: 500,
   semiBold: 600,
   bold: 700,
-};
+} as const;

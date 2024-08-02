@@ -38,11 +38,12 @@ export const buttonStyles = ({ size, type, ghost }: Pick<ButtonProps, 'size' | '
   white-space: nowrap;
   box-sizing: border-box;
   width: auto;
+  height: 45px;
   cursor: pointer;
   user-select: none;
   text-align: center;
   line-height: 100%;
-  padding: 15px;
+  padding: 0 15px;
   border-radius: 5px;
   font-style: normal;
   font-size: ${styles.fontSize.regular};
@@ -67,6 +68,7 @@ export const buttonStyles = ({ size, type, ghost }: Pick<ButtonProps, 'size' | '
   css`
     padding: 6px 15px;
     border-radius: 3px;
+    height: 27px;
   `}
 
   ${type === 'default' &&
