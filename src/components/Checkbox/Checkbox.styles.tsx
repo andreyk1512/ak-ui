@@ -10,6 +10,7 @@ export const labelStyles = ({ disabled }: Pick<CheckboxProps, 'disabled'>) => cs
   align-items: center;
   color: ${styles.color.slateGray};
   cursor: pointer;
+  transition: all 0.2s;
 
   ${disabled &&
   css`
@@ -33,7 +34,7 @@ export const inputStyles = css`
   border: 1px solid ${styles.color.beauBlue};
   border-radius: 3px;
   box-sizing: border-box;
-  transition: transform linear 0.1s;
+  transition: transform linear 0.2s;
 
   &:active {
     transform: scale(0.98);

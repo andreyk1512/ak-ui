@@ -2,27 +2,27 @@
 
 exports[`Accordion should render the correct snapshot of the collapsed state 1`] = `
 <div
-  class="css-1seyxos-Accordion"
+  class="css-16ztqdi"
 >
   <div
-    class="css-1gv14s8-Accordion"
+    class="css-13khp69"
   >
     <h3
-      class="css-1ur2pi3-Title"
+      class="css-80whhd"
     >
       My Accordion
     </h3>
-    <div
-      class="css-sjuro9-Accordion"
+    <span
+      class="css-1lrz23l"
       title="expand"
     />
   </div>
   <div
-    class="css-9o9fup-Accordion"
+    class="css-1mdb6nq"
     style="max-height: 0;"
   >
     <div
-      class="css-1renszx-Accordion"
+      class="css-1frs77m"
     >
       Children
     </div>
@@ -32,27 +32,27 @@ exports[`Accordion should render the correct snapshot of the collapsed state 1`]
 
 exports[`Accordion should render the correct snapshot of the expanded state 1`] = `
 <div
-  class="css-1seyxos-Accordion"
+  class="css-16ztqdi"
 >
   <div
-    class="css-1gv14s8-Accordion"
+    class="css-13khp69"
   >
     <h3
-      class="css-1ur2pi3-Title"
+      class="css-80whhd"
     >
       My Accordion
     </h3>
-    <div
-      class="css-ccb19j-Accordion"
+    <span
+      class="css-6hkuxv"
       title="expand"
     />
   </div>
   <div
-    class="css-k8mpdl-Accordion"
+    class="css-lf2lug"
     style="max-height: 0px;"
   >
     <div
-      class="css-1renszx-Accordion"
+      class="css-1frs77m"
     >
       Children
     </div>

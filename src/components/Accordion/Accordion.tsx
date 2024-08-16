@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from 'react';
-import { ReactComponent as AccordionArrowIcon } from '../../assets/icons/accordion-arrow.svg';
+import AccordionArrowIcon from '../../assets/icons/accordion-arrow.svg?react';
 import { Typography } from '../Typography';
 import { bodyInnerStyles, bodyStyles, containerStyles, headerStyles, iconStyles } from './Accordion.styles';
 import { AccordionProps } from './Accordion.types';

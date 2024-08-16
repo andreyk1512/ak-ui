@@ -17,7 +17,11 @@ describe('Accordion', () => {
   });
 
   it('should render with expanded state if defaultExpanded prop is true', () => {
-    render(<Accordion title="My Accordion" defaultExpanded>Children</Accordion>);
+    render(
+      <Accordion title="My Accordion" defaultExpanded>
+        Children
+      </Accordion>,
+    );
     const body = screen.getByText('Children');
 
     expect(body).toBeVisible();

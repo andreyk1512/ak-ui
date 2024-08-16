@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Typography should correctly render article element with content 1`] = `
+exports[`Typography should render the article text 1`] = `
 <article>
   Lorem ipsum dolor sit amet...
 </article>

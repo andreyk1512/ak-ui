@@ -1,32 +1,68 @@
-import { fireEvent, render } from '@testing-library/react';
+import '@testing-library/jest-dom';
+import { render, screen } from '@testing-library/react';
 import { Checkbox } from '../Checkbox';
 
 describe('Checkbox', () => {
-  it('should correctly render checkbox element with content', () => {
-    const label = 'CheckBox';
-    const { container } = render(<Checkbox label={label} />);
+  const onChange = jest.fn();
 
-    expect(container.querySelector('label>span')?.textContent).toBe(label);
-    expect(container.firstChild).toMatchSnapshot();
+  it('should render the correct snapshot of the unchecked state', () => {
+    const { container } = render(<Checkbox label="My Checkbox" onChange={onChange} />);
+
+    expect(container.firstChild).toMatchSnapshot('unchecked');
   });
 
-  it('should be able to change checked value', () => {
-    const ON_CHANGE = jest.fn();
-    const { container, rerender } = render(<Checkbox label="CheckBox" onChange={ON_CHANGE} value={false} />);
+  it('should render the correct snapshot of the checked state', () => {
+    const { container } = render(<Checkbox label="My Checkbox" onChange={onChange} value={true} />);
 
-    expect(container.querySelector('input')?.checked).toEqual(false);
-
-    rerender(<Checkbox label="CheckBox" onChange={ON_CHANGE} value={true} />);
-
-    expect(container.querySelector('input')?.checked).toEqual(true);
+    expect(container.firstChild).toMatchSnapshot('checked');
   });
 
-  it('should be able to render a disabled checkbox', () => {
-    const ON_CHANGE = jest.fn();
-    const { container } = render(<Checkbox label="CheckBox" disabled onChange={ON_CHANGE} />);
+  it('should render the correct snapshot of the disabled state', () => {
+    const { container } = render(<Checkbox label="My Checkbox" onChange={onChange} disabled />);
 
-    fireEvent.click(container.querySelector('label')!);
+    expect(container.firstChild).toMatchSnapshot('disabled');
+  });
 
-    expect(ON_CHANGE).not.toHaveBeenCalled();
+  it('should render the checkbox label', () => {
+    const labelValue = 'My Checkbox';
+    render(<Checkbox label={labelValue} onChange={onChange} />);
+    const label = screen.getByText(labelValue);
+
+    expect(label).toBeInTheDocument();
+  });
+
+  it('should render the checkbox input', () => {
+    render(<Checkbox label="My Checkbox" onChange={onChange} />);
+    const input = screen.getByRole('checkbox');
+
+    expect(input).toBeInTheDocument();
+  });
+
+  it('should render the checkbox as checked if the value is truthy', () => {
+    render(<Checkbox label="My Checkbox" onChange={onChange} value={true} />);
+    const input = screen.getByRole('checkbox');
+
+    expect(input).toBeChecked();
+  });
+
+  it('should render the checkbox as unchecked if the value is falsy', () => {
+    render(<Checkbox label="My Checkbox" onChange={onChange} value={false} />);
+    const input = screen.getByRole('checkbox');
+
+    expect(input).not.toBeChecked();
+  });
+
+  it('should disable the checkbox if the disabled prop is true', () => {
+    render(<Checkbox label="My Checkbox" onChange={onChange} disabled={true} />);
+    const input = screen.getByRole('checkbox');
+
+    expect(input).toBeDisabled();
+  });
+
+  it('should enable the checkbox if the disabled prop is false', () => {
+    render(<Checkbox label="My Checkbox" onChange={onChange} disabled={false} />);
+    const input = screen.getByRole('checkbox');
+
+    expect(input).not.toBeDisabled();
   });
 });

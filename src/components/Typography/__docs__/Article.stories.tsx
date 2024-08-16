@@ -11,7 +11,7 @@ const meta = {
   argTypes: {
     children: {
       required: true,
-      control: 'ReactNode',
+      control: 'text',
     },
   },
   args: {
