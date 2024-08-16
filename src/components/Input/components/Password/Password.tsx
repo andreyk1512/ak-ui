@@ -1,6 +1,6 @@
 import { useState } from 'react';
-import { ReactComponent as EyeOffSVG } from '../../../../assets/icons/eye-off.svg';
-import { ReactComponent as EyeSVG } from '../../../../assets/icons/eye.svg';
+import EyeOffSVG from '../../../../assets/icons/eye-off.svg?react';
+import EyeSVG from '../../../../assets/icons/eye.svg?react';
 import { Input } from '../../Input';
 import { visibilityIconWrapperStyles } from './Password.styles';
 import { PasswordProps } from './Password.types';

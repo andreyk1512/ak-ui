@@ -2,6 +2,6 @@
 
 exports[`TextArea should render the textarea element 1`] = `
 <textarea
-  class="css-hul3sc-TextArea"
+  class="css-1bkhsa2"
 />
 `;

@@ -2,7 +2,7 @@
 
 exports[`Tag should render the tag text 1`] = `
 <span
-  class="css-1mp94v1-Tag"
+  class="css-10vk3hl"
 >
   My Tag
 </span>

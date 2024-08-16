@@ -2,7 +2,7 @@
 
 exports[`Typography.Paragraph should render the paragraph text 1`] = `
 <p
-  class="css-459kog-Paragraph"
+  class="css-cipeyk"
 >
   This is a paragraph
 </p>

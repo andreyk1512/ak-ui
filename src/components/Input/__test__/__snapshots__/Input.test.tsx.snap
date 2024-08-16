@@ -2,10 +2,10 @@
 
 exports[`Input should render the input element 1`] = `
 <div
-  class="css-afkxkv-Input"
+  class="css-1i5hjp5"
 >
   <input
-    class="css-1j3bcgk-Input"
+    class="css-stxuvm"
     value="This is a text component"
   />
 </div>
@@ -13,15 +13,15 @@ exports[`Input should render the input element 1`] = `
 
 exports[`Input should render the input element with suffix icon 1`] = `
 <div
-  class="css-afkxkv-Input"
+  class="css-1i5hjp5"
 >
   <input
-    class="css-1j3bcgk-Input"
+    class="css-stxuvm"
   />
   <span
-    class="css-c1huft-Input"
+    class="css-1a5cg1q"
   >
-    <div
+    <span
       title="eye"
     />
   </span>

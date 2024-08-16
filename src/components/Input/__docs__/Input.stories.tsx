@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from '@storybook/react';
-import { ReactComponent as EyeSVG } from '../../../assets/icons/eye.svg';
+import EyeSVG from '../../../assets/icons/eye.svg?react';
 import { Input } from '../Input';
 
 const meta = {

@@ -1,6 +1,6 @@
 import '@testing-library/jest-dom';
 import { render, screen } from '@testing-library/react';
-import { ReactComponent as EyeSVG } from '../../../assets/icons/eye.svg';
+import EyeSVG from '../../../assets/icons/eye.svg?react';
 import { Input } from '../Input';
 
 describe('Input', () => {

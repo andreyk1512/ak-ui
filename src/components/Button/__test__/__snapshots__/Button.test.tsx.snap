@@ -2,11 +2,11 @@
 
 exports[`Button should render the button text 1`] = `
 <button
-  class="css-yz7agf-Button"
+  class="css-1avih5u"
   type="button"
 >
   <span
-    class="css-v4rgto-Button"
+    class="css-gt8qcb"
     role="loader"
   />
   Click Me

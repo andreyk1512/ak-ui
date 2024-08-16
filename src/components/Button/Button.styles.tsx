@@ -15,7 +15,7 @@ export const loaderStyles = ({ hidden }: { hidden: boolean }) => css`
   transition: all 0.2s;
 
   ${hidden &&
-    css`
+  css`
     scale: 0;
     width: 0;
     margin-inline-end: 0;

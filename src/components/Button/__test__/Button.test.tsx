@@ -13,7 +13,11 @@ describe('Button', () => {
 
   it('should disable the button if the disabled prop is true', () => {
     const onClickHandler = jest.fn();
-    render(<Button disabled onClick={onClickHandler}>Click Me</Button>);
+    render(
+      <Button disabled onClick={onClickHandler}>
+        Click Me
+      </Button>,
+    );
     const button = screen.getByRole('button');
     button.click();
 
