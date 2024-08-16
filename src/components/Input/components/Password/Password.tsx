@@ -9,7 +9,11 @@ export const Password = ({ ...inputProps }: PasswordProps) => {
   const [visible, setVisible] = useState(false);
 
   const suffixIcon = (
-    <span css={visibilityIconWrapperStyles()} onClick={() => setVisible((prevState) => !prevState)}>
+    <span
+      aria-label="visibility-icon"
+      css={visibilityIconWrapperStyles()}
+      onClick={() => setVisible((prevState) => !prevState)}
+    >
       {visible ? <EyeSVG /> : <EyeOffSVG />}
     </span>
   );
