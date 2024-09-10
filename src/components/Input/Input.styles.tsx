@@ -1,7 +1,7 @@
 import { css } from '@emotion/react';
 import * as styles from '../../styles';
 
-export const inputWrapperStyles = () => css`
+export const inputWrapperStyles = css`
   display: inline-flex;
   align-items: center;
   background-color: ${styles.color.aliceBlue};
@@ -10,7 +10,7 @@ export const inputWrapperStyles = () => css`
   width: 100%;
 `;
 
-export const inputStyles = () => css`
+export const inputStyles = css`
   display: block;
   height: 45px;
   border: none;
@@ -28,7 +28,7 @@ export const inputStyles = () => css`
   }
 `;
 
-export const suffixIconStyles = () => css`
+export const suffixIconStyles = css`
   display: inline-flex;
   align-items: center;
   justify-content: center;

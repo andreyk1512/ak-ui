@@ -1,10 +1,10 @@
 import '@testing-library/jest-dom';
 import { render, screen } from '@testing-library/react';
-import { Input } from '../Input';
+import { TextArea } from '../components';
 
-describe('TextArea', () => {
+describe('Input.TextArea', () => {
   it('should render the textarea element', () => {
-    const { container } = render(<Input.TextArea />);
+    const { container } = render(<TextArea />);
 
     const input = screen.getByRole('textbox');
     expect(input).toBeInTheDocument();
