@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Input.File should display name for selected file 1`] = `
+<label
+  class="css-1ho36cf"
+>
+  <input
+    class="css-38lglc"
+    type="file"
+  />
+  <span />
+  TestFileName
+  <span
+    aria-label="remove-icon"
+    height="12"
+    width="12"
+  />
+</label>
+`;
+
+exports[`Input.File should render the file input element 1`] = `
+<label
+  class="css-1ho36cf"
+>
+  <input
+    class="css-38lglc"
+    type="file"
+  />
+  <span />
+  select
+</label>
+`;

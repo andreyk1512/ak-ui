@@ -21,4 +21,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Add Checkbox component
 - Add Typography components: Title, Paragraph, Text
 - Add Accordion component
-- Add Input components: Input, Password, TextArea
+- Add Input components: Input, Password, TextArea, File

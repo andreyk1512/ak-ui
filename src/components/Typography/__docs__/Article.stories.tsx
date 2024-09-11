@@ -16,10 +16,10 @@ const meta = {
   },
   args: {
     children: (
-      <Typography.Text>
+      <Typography>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
         magna aliqua.
-      </Typography.Text>
+      </Typography>
     ),
   },
 } satisfies Meta<typeof Typography>;

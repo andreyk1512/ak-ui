@@ -1,10 +1,10 @@
 import '@testing-library/jest-dom';
 import { fireEvent, render, screen } from '@testing-library/react';
-import { Input } from '../Input';
+import { Password } from '../components';
 
-describe('Password', () => {
+describe('Input.Password', () => {
   it('should render the input element with type password', () => {
-    const { container } = render(<Input.Password aria-label="password" />);
+    const { container } = render(<Password aria-label="password" />);
 
     const input = screen.getByLabelText('password');
     expect(input).toBeInTheDocument();
@@ -13,7 +13,7 @@ describe('Password', () => {
   });
 
   it('should change type to text when click on icon', () => {
-    const { container } = render(<Input.Password aria-label="password" />);
+    const { container } = render(<Password aria-label="password" />);
 
     const visibilityIcon = screen.getByLabelText('visibility-icon');
     fireEvent.click(visibilityIcon);
