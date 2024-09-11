@@ -4,3 +4,4 @@ export * from './Checkbox';
 export * from './Typography';
 export * from './Accordion';
 export * from './Input';
+export * from './Loader';
