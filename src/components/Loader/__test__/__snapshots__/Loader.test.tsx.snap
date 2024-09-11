@@ -22,10 +22,3 @@ exports[`Loader should render loader component with label 1`] = `
   </span>
 </div>
 `;
-
-exports[`Loader should render the loader 1`] = `
-<span
-  aria-label="loader"
-  class="css-5ftavm"
-/>
-`;
