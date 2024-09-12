@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Input.TextArea should render the textarea element 1`] = `
+<textarea
+  class="css-1bkhsa2"
+/>
+`;

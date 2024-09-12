@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Input should render the input element 1`] = `
+<div
+  class="css-1i5hjp5"
+>
+  <input
+    class="css-stxuvm"
+    value="This is a text component"
+  />
+</div>
+`;
+
+exports[`Input should render the input element with suffix icon 1`] = `
+<div
+  class="css-1i5hjp5"
+>
+  <input
+    class="css-stxuvm"
+  />
+  <span
+    class="css-1a5cg1q"
+  >
+    <span
+      title="eye"
+    />
+  </span>
+</div>
+`;

@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Typography.Title should render the title content as h1 for type 1 by default 1`] = `
+<h1
+  class="css-80whhd"
+>
+  This is a title
+</h1>
+`;
+
+exports[`Typography.Title should render the title content as h2 for type 2 1`] = `
+<h2
+  class="css-80whhd"
+>
+  This is a title
+</h2>
+`;
+
+exports[`Typography.Title should render the title content as h3 for type 3 1`] = `
+<h3
+  class="css-80whhd"
+>
+  This is a title
+</h3>
+`;
+
+exports[`Typography.Title should render the title content as h4 for type 4 1`] = `
+<h4
+  class="css-80whhd"
+>
+  This is a title
+</h4>
+`;
+
+exports[`Typography.Title should render the title content as h5 for type 5 1`] = `
+<h5
+  class="css-80whhd"
+>
+  This is a title
+</h5>
+`;

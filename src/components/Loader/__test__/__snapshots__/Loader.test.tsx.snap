@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Loader should render loader component 1`] = `
+<span
+  aria-label="loader"
+  class="css-5ftavm"
+/>
+`;
+
+exports[`Loader should render loader component with label 1`] = `
+<div
+  class="css-zclaep"
+>
+  <span
+    aria-label="loader"
+    class="css-5ftavm"
+  />
+  <span
+    class="css-1ti22to"
+  >
+    Loading...
+  </span>
+</div>
+`;

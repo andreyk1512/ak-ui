@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tag should render the tag text 1`] = `
+<span
+  class="css-10vk3hl"
+>
+  My Tag
+</span>
+`;

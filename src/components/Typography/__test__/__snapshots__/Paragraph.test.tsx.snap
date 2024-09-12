@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Typography.Paragraph should render the paragraph text 1`] = `
+<p
+  class="css-cipeyk"
+>
+  This is a paragraph
+</p>
+`;
