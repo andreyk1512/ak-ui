@@ -14,7 +14,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Fix Input.File styles
 - Remove mocks from build
 ### Changed
-- Remove margin from Typography.Title and Typography.Paragraph 
+- Remove margin from Typography.Title and Typography.Paragraph
+- Change eslint config extension from js to mjs
 
 ## 1.0.0 - 2024-09-12
 ### Added
