@@ -7,7 +7,7 @@ exports[`Checkbox should render the correct snapshot of the checked state: check
 >
   <input
     checked=""
-    class="css-107efsi"
+    class="css-84lhd8"
     id=":r1:"
     type="checkbox"
   />
@@ -23,7 +23,7 @@ exports[`Checkbox should render the correct snapshot of the disabled state: disa
   for=":r2:"
 >
   <input
-    class="css-107efsi"
+    class="css-84lhd8"
     disabled=""
     id=":r2:"
     type="checkbox"
@@ -40,7 +40,7 @@ exports[`Checkbox should render the correct snapshot of the unchecked state: unc
   for=":r0:"
 >
   <input
-    class="css-107efsi"
+    class="css-84lhd8"
     id=":r0:"
     type="checkbox"
   />

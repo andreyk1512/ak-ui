@@ -8,6 +8,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## Unreleased
 ### Added
 - Update dependencies
+### Fixed
+- Fix checkbox checked icon display
 ### Changed
 - Remove margin from Typography.Title and Typography.Paragraph 
 
