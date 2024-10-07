@@ -12,6 +12,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Fix checkbox checked icon display
 - Fix input suffix paddings
 - Fix Input.File styles
+- Remove mocks from build
 ### Changed
 - Remove margin from Typography.Title and Typography.Paragraph 
 
