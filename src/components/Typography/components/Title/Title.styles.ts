@@ -2,6 +2,7 @@ import { css } from '@emotion/react';
 import * as styles from '../../../../styles';
 
 export const titleStyles = css`
+  margin: 0;
   line-height: 100%;
   color: ${styles.color.yankeesBlue};
   font-weight: ${styles.fontWeight.bold};

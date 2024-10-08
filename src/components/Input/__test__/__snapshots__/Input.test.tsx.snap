@@ -16,10 +16,10 @@ exports[`Input should render the input element with suffix icon 1`] = `
   class="css-1i5hjp5"
 >
   <input
-    class="css-stxuvm"
+    class="css-tws2u3"
   />
   <span
-    class="css-1a5cg1q"
+    class="css-1hbtery"
   >
     <span
       title="eye"

@@ -1,5 +1,4 @@
 import { css } from '@emotion/react';
-import CheckedSVG from '../../assets/icons/checked.svg';
 import * as styles from '../../styles';
 import { CheckboxProps } from './Checkbox.types';
 
@@ -55,7 +54,7 @@ export const inputStyles = css`
       height: 8px;
       display: inline-block;
       line-height: 100%;
-      background: url(${CheckedSVG.toString()});
+      background: url(/src/assets/icons/checked.svg);
     }
   }
 

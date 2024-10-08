@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button.Link should render the link 1`] = `
+<a
+  class="css-575uon"
+  href="https://link.to/"
+>
+  Link
+</a>
+`;
