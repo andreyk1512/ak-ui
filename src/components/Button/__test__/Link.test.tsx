@@ -1,5 +1,5 @@
 import '@testing-library/jest-dom';
-import { render, screen } from '@testing-library/react';
+import { fireEvent, render, screen } from '@testing-library/react';
 import { Link } from '../components';
 
 describe('Button.Link', () => {
@@ -20,5 +20,14 @@ describe('Button.Link', () => {
     const link = screen.getByRole('link', { name });
 
     expect(link).toHaveAttribute('href', undefined);
+  });
+
+  it('should be able to click', () => {
+    const onClick = jest.fn();
+    render(<Link onClick={onClick} href={href}>{name}</Link>);
+    const link = screen.getByRole('link', { name });
+    fireEvent.click(link);
+
+    expect(onClick).toHaveBeenCalled();
   });
 });
