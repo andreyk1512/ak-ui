@@ -23,6 +23,7 @@ const meta = {
       control: 'radio',
       options: ['_blank', '_self', '_parent', '_top'],
     },
+    onClick: { action: 'clicked' },
   },
 } satisfies Meta<typeof Link>;
 
