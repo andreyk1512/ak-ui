@@ -8,6 +8,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## Unreleased
 ### Added
 - Update dependencies
+- Add Button.Link component
 ### Fixed
 - Fix checkbox checked icon display
 - Fix input suffix paddings
