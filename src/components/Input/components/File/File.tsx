@@ -1,8 +1,8 @@
 import { ChangeEventHandler, MouseEventHandler, useRef } from 'react';
 import { FileProps } from './File.types';
-import { inputStyles, labelStyles } from './File.styles';
 import FileIcon from '../../../../assets/icons/file.svg?react';
 import CrossIcon from '../../../../assets/icons/cross.svg?react';
+import { inputStyles, labelStyles, placeholderStyles, removeIconStyles } from './File.styles';
 
 export const File = ({ name, placeholder, value, onChange }: FileProps) => {
   const inputRef = useRef<HTMLInputElement>(null);
@@ -39,8 +39,8 @@ export const File = ({ name, placeholder, value, onChange }: FileProps) => {
     <label css={labelStyles}>
       <input css={inputStyles} ref={inputRef} type="file" name={name} onChange={handleChange} />
       <FileIcon />
-      {value?.name ?? placeholder}
-      {value ? <CrossIcon aria-label="remove-icon" width="12" height="12" onClick={handleReset} /> : null}
+      <span css={placeholderStyles}>{value?.name ?? placeholder}</span>
+      {value ? <CrossIcon css={removeIconStyles} aria-label="remove-icon" width="12" height="12" onClick={handleReset} /> : null}
     </label>
   );
 };

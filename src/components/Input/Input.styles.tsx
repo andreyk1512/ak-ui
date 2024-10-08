@@ -10,12 +10,12 @@ export const inputWrapperStyles = css`
   width: 100%;
 `;
 
-export const inputStyles = css`
+export const inputStyles = (hasSuffix?: boolean) => css`
   display: block;
   height: 45px;
   border: none;
   box-sizing: border-box;
-  padding: 0 15px;
+  padding: ${hasSuffix ? "0 0 0 15px" : "0 15px"};
   font-size: ${styles.fontSize.regular};
   background-color: transparent;
   overflow: hidden;
@@ -32,6 +32,7 @@ export const suffixIconStyles = css`
   display: inline-flex;
   align-items: center;
   justify-content: center;
+  margin-inline-start: 15px;
   margin-inline-end: 15px;
   color: inherit;
   max-width: 24px;

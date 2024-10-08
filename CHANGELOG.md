@@ -6,6 +6,18 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## Unreleased
+### Added
+- Update dependencies
+- Add Button.Link component
+### Fixed
+- Fix checkbox checked icon display
+- Fix input suffix paddings
+- Fix Input.File styles
+- Remove mocks from build
+### Changed
+- Remove margin from Typography.Title and Typography.Paragraph
+- Change eslint config extension from js to mjs
+- Change application type from module to commonjs
 
 ## 1.0.0 - 2024-09-12
 ### Added

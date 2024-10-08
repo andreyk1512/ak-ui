@@ -2,16 +2,21 @@
 
 exports[`Input.File should display name for selected file 1`] = `
 <label
-  class="css-1ho36cf"
+  class="css-nc1f5d"
 >
   <input
     class="css-38lglc"
     type="file"
   />
   <span />
-  TestFileName
+  <span
+    class="css-av1h6s"
+  >
+    TestFileName
+  </span>
   <span
     aria-label="remove-icon"
+    class="css-5bno9x"
     height="12"
     width="12"
   />
@@ -20,13 +25,17 @@ exports[`Input.File should display name for selected file 1`] = `
 
 exports[`Input.File should render the file input element 1`] = `
 <label
-  class="css-1ho36cf"
+  class="css-nc1f5d"
 >
   <input
     class="css-38lglc"
     type="file"
   />
   <span />
-  select
+  <span
+    class="css-av1h6s"
+  >
+    select
+  </span>
 </label>
 `;
