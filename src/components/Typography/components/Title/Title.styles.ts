@@ -1,29 +1,30 @@
 import { css } from '@emotion/react';
 import * as styles from '../../../../styles';
+import { TitleProps } from './Title.types.ts';
 
-export const titleStyles = css`
+export const titleStyles = (type: TitleProps['type']) => css`
   margin: 0;
   line-height: 100%;
   color: ${styles.color.yankeesBlue};
   font-weight: ${styles.fontWeight.bold};
 
-  &h1 {
+  ${type === 1 && css`
     font-size: ${styles.fontSize.veryLarge};
-  }
+  `}
 
-  &h2 {
+  ${type === 2 && css`
     font-size: ${styles.fontSize.large};
-  }
+  `}
 
-  &h3 {
+  ${type === 3 && css`
     font-size: ${styles.fontSize.medium};
-  }
+  `}
 
-  &h4 {
+  ${type === 4 && css`
     font-size: ${styles.fontSize.regular};
-  }
+  `}
 
-  &h5 {
+  ${type === 5 && css`
     font-size: ${styles.fontSize.regular};
-  }
+  `}
 `;
