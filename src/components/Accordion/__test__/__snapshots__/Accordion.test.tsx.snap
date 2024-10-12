@@ -8,7 +8,7 @@ exports[`Accordion should render the correct snapshot of the collapsed state 1`]
     class="css-13khp69"
   >
     <h3
-      class="css-ce78ob"
+      class="css-wcntdc"
     >
       My Accordion
     </h3>
@@ -38,7 +38,7 @@ exports[`Accordion should render the correct snapshot of the expanded state 1`] 
     class="css-13khp69"
   >
     <h3
-      class="css-ce78ob"
+      class="css-wcntdc"
     >
       My Accordion
     </h3>

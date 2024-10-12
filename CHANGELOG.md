@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## Unreleased
 
+## 1.0.5 - 2024-10-12
+### Fixed
+- Fix Typography.Title styles
+
 ## 1.0.4 - 2024-10-12
 ### Added
 - Add loading prop to Button.Link component
