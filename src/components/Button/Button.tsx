@@ -20,7 +20,7 @@ export const Button = ({
       className={extraClass}
       type={htmlType}
     >
-      <span role="loader" css={loaderStyles({ hidden: !loading })} />
+      <span role="loader" hidden={!loading} css={loaderStyles} />
       {children}
     </button>
   );

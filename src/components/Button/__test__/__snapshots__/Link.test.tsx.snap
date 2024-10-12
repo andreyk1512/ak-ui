@@ -2,9 +2,14 @@
 
 exports[`Button.Link should render the link 1`] = `
 <a
-  class="css-575uon"
+  class="css-1xgdb8e"
   href="https://link.to/"
 >
+  <span
+    class="css-19ekioy"
+    hidden=""
+    role="loader"
+  />
   Link
 </a>
 `;

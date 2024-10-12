@@ -30,4 +30,11 @@ describe('Button.Link', () => {
 
     expect(onClick).toHaveBeenCalled();
   });
+
+  it('should show the link loader if the loading prop is true', () => {
+    render(<Link loading href={href}>{name}</Link>);
+    const loader = screen.getByRole('loader');
+
+    expect(loader).toBeInTheDocument();
+  });
 });
