@@ -46,3 +46,10 @@ export const Disabled: Story = {
     disabled: true,
   },
 };
+
+export const WithLoading: Story = {
+  args: {
+    children: "This is a Link with loading",
+    loading: true,
+  },
+};

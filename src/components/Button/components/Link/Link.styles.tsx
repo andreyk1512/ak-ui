@@ -3,6 +3,8 @@ import { LinkProps } from './Link.types';
 import * as styles from '../../../../styles';
 
 export const linkStyles = ({disabled}: Pick<LinkProps, 'disabled'>) => css`
+  display: flex;
+  align-items: center;
   cursor: pointer;
   text-decoration: none;
   color: ${styles.color.tuftsBlue};
