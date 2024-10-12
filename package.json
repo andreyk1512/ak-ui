@@ -1,6 +1,6 @@
 {
   "name": "@akrupa1512/ak-ui",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "type": "commonjs",
   "description": "React UI kit library",
   "main": "dist/index.cjs.js",
