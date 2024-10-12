@@ -6,4 +6,5 @@ export type LinkProps = {
   disabled?: boolean,
   children: ReactNode,
   onClick?: MouseEventHandler<HTMLAnchorElement>,
+  loading?: boolean,
 };
