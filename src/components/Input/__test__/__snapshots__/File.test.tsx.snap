@@ -8,13 +8,13 @@ exports[`Input.File should display name for selected file 1`] = `
     class="css-38lglc"
     type="file"
   />
-  <span />
+  <svgrmock />
   <span
     class="css-av1h6s"
   >
     TestFileName
   </span>
-  <span
+  <svgrmock
     aria-label="remove-icon"
     class="css-5bno9x"
     height="12"
@@ -31,7 +31,7 @@ exports[`Input.File should render the file input element 1`] = `
     class="css-38lglc"
     type="file"
   />
-  <span />
+  <svgrmock />
   <span
     class="css-av1h6s"
   >
