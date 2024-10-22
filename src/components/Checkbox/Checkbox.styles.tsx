@@ -1,6 +1,7 @@
 import { css } from '@emotion/react';
 import * as styles from '../../styles';
 import { CheckboxProps } from './Checkbox.types';
+import CheckedIcon from '../../assets/icons/checked.svg';
 
 export const labelStyles = ({ disabled }: Pick<CheckboxProps, 'disabled'>) => css`
   font: inherit;
@@ -54,7 +55,7 @@ export const inputStyles = css`
       height: 8px;
       display: inline-block;
       line-height: 100%;
-      background: url(/src/assets/icons/checked.svg);
+      background-image: url("${CheckedIcon}");
     }
   }
 
