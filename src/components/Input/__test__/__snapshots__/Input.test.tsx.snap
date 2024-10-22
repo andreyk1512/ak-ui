@@ -21,7 +21,7 @@ exports[`Input should render the input element with suffix icon 1`] = `
   <span
     class="css-1hbtery"
   >
-    <span
+    <svgrmock
       title="eye"
     />
   </span>
